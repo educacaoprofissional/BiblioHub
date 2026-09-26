@@ -1,0 +1,28 @@
+{
+  "name": "BiblioHub - TCC",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "hostRequirements": {
+    "cpus": 2
+  },
+  "postCreateCommand": "npm install --no-audit --no-fund",
+  "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "01_LEIA_PRIMEIRO.txt",
+        "src/App.jsx"
+      ]
+    },
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  },
+  "portsAttributes": {
+    "5173": {
+      "label": "BiblioHub",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "forwardPorts": [5173]
+}
