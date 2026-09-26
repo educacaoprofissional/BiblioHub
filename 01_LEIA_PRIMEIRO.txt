@@ -1,0 +1,46 @@
+BIBLIOHUB - PROJETO PRONTO PARA GITHUB CODESPACES
+=================================================
+
+Este projeto foi preparado para ser executado no GitHub Codespaces.
+
+PASSO A PASSO
+
+1) Abra o repositório no GitHub.
+2) Clique em Code > Codespaces > Create codespace on main.
+3) Aguarde a criação do Codespace e a instalação automática das dependências.
+4) Abra o Terminal.
+5) Execute:
+
+   npm start
+
+6) Aguarde aparecer no terminal:
+
+   Local: http://localhost:5173/
+
+7) O Codespaces deve abrir a página automaticamente.
+   Se não abrir, vá em PORTS / PORTAS, localize 5173 e clique em Open in Browser.
+
+SE A INSTALAÇÃO AUTOMÁTICA NÃO TIVER TERMINADO
+
+Execute:
+
+   npm install
+   npm start
+
+PARA PARAR O SITE
+
+No terminal em que o Vite está rodando, pressione:
+
+   Ctrl + C
+
+IMPORTANTE
+
+- Não envie a pasta node_modules para o GitHub.
+- Não execute npm audit fix --force sem orientação da professora.
+- O arquivo package.json deve permanecer na raiz do projeto.
+- Antes da apresentação, teste o projeto em um Codespace novo.
+
+Projeto: BiblioHub
+Tecnologia: React + Vite
+Node.js: 22
+Porta: 5173
